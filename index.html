@@ -3,45 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Life Drip - Sueroterapia</title>
+    <title>Life Drip - Sueroterapia Premium</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff;
-            color: #333;
+            background-color: #fff9e6;
+            color: #444;
+            line-height: 1.6;
         }
         header {
-            background-color: #4caf50;
+            background: linear-gradient(45deg, #d4af37, #b8860b);
             color: white;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
         }
         section {
-            padding: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2 {
+            color: #d4af37;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #d4af37;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        section p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
         }
         .cta {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .cta a {
             text-decoration: none;
-            background-color: #4caf50;
+            background: #d4af37;
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             border-radius: 5px;
             font-size: 1.2em;
+            transition: background 0.3s;
         }
         .cta a:hover {
-            background-color: #45a049;
+            background: #b8860b;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .services, .testimonials {
+            margin-top: 40px;
+        }
+        .services ul, .testimonials ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li, .testimonials li {
+            background: #fff4d4;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Bienvenidos a Life Drip</h1>
-        <p>Revoluciona tu salud con nuestra avanzada sueroterapia</p>
+        <p>Revoluciona tu salud con nuestra avanzada sueroterapia premium</p>
     </header>
     <section>
         <h2>¿Qué es la Sueroterapia?</h2>
@@ -51,9 +101,27 @@
             Nuestro objetivo es ayudarte a mejorar tu energía, fortalecer tu sistema inmunológico
             y recuperar el bienestar que necesitas.
         </p>
+        <div class="services">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Tratamiento revitalizante</li>
+                <li>Fortalecimiento del sistema inmunológico</li>
+                <li>Terapias personalizadas según tus necesidades</li>
+            </ul>
+        </div>
+        <div class="testimonials">
+            <h2>Testimonios</h2>
+            <ul>
+                <li>"Life Drip transformó mi salud en pocas semanas!" - María G.</li>
+                <li>"Un servicio excepcional y resultados inmediatos." - Carlos R.</li>
+            </ul>
+        </div>
         <div class="cta">
             <a href="#contacto">Contáctanos para más información</a>
         </div>
     </section>
+    <footer>
+        <p>© 2024 Life Drip. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
